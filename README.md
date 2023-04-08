@@ -1,4 +1,4 @@
-#documentação
+DOCUMENTAÇÃO
 
 1. Criação de arquivo e download do Scrapy
 
@@ -10,7 +10,6 @@ Para começar a utilizar o Scrapy, um framework de web scraping em Python, é ne
 
     Faça o download do pacote Scrapy usando o gerenciador de pacotes pip com o seguinte comando:
 
-sh
 
 pip install scrapy
 
@@ -23,7 +22,6 @@ Agora que você já tem o Scrapy instalado, é hora de criar um novo projeto Scr
 
     Execute o seguinte comando para criar um novo projeto Scrapy com o nome de nome_do_projeto:
 
-sh
 
 scrapy startproject nome_do_projeto
 
@@ -34,7 +32,7 @@ Depois de criar o projeto Scrapy, é necessário navegar para o diretório do pr
 
     No terminal, navegue para o diretório do projeto recém-criado com o seguinte comando:
 
-sh
+
 
 cd nome_do_projeto
 
@@ -45,7 +43,7 @@ Agora que você está no diretório do projeto, é hora de criar um spider, que 
 
     No terminal, execute o seguinte comando para criar um novo spider com o nome de nome_do_spider e o link do site alvo link_do_site.com:
 
-sh
+
 
 scrapy genspider nome_do_spider link_do_site.com
 
